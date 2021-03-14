@@ -16,7 +16,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
 
     <!-- FONT AWESOME -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -43,54 +43,48 @@
             "priceCurrency": "USD"
           }
         }
-      </script>
-        <script>
-            /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-            function openNav() {
+    </script>
+    <script>
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function openNav() {
             document.getElementById("mySidebar").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
-            }
-
-            /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-            function closeNav() {
+        }
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
             document.getElementById("mySidebar").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
-            }
-        </script>
+        }
+    </script>
 </head>
 
 
 <body class="text-center">
     <div class="fixed-top">
         <div class="p-3 px-md-4 box-shadow" style="background-color: #0077B6; display: flex;flex-direction: row;align-items: center;justify-content: space-between;" >
-            <!-- <div class="container"> -->
-            <img src="./test.png" width=80px style="border-radius: 45px;" alt="Campus Access Logo of W.E.B Dubois Library"/>
+            <img src="./images/test.png" width=80px style="border-radius: 45px;" alt="Campus Access Logo of W.E.B Dubois Library"/>
             <nav class="my-2 my-md-0 mr-md-3 lead" >
                 <a class="p-2 text-dark"  href="#home"><span style="color: white;">Home</span></a></span>
                 <a class="p-2 text-dark" href="#features"><span style="color: white;">Features</a></span>
-                <!--<a class="p-2 text-dark" href="#app"><span style="color: white;">App</a></span>-->
-                <a class="p-2 text-dark" href="team.html"><span style="color: white;">Team</a></span>
+                <a class="p-2 text-dark" href="./pages/team.html"><span style="color: white;">Team</a></span>
                 <a class="p-2 text-dark" href="./pages/contactUs.html"><span style="color: white;">Contact</a></span>
             </nav>
-            <button style="width: 60; height: 60; border: none; background-color: #0077B6; font-size: 30;" onclick="openNav()" class="collapse">&#9776</button>
+            <button style="width: 55px; height: 55px; border: none; background-color: #0077B6; font-size: 30pt;" onclick="openNav()" class="collapse">&#9776</button>
         </div>
     </div>
-
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a  href="#home"><span style="color: white;">Home</span></a></span>
         <a  href="#features"><span style="color: white;">Features</a></span>
-        <a  href="#app"><span style="color: white;">App</a></span>
-        <a  href="team.html"><span style="color: white;">Team</a></span>
+        <a  href="./pages/team.html"><span style="color: white;">Team</a></span>
         <a  href="./pages/contactUs.html"><span style="color: white;">Contact</a></span>
-      </div>
+      </div> 
+      <br>
     <div style="background-color: white;">
-
         <div class="jumbotron" style="background-color: #0077B6; padding-top: 100; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" id="home">
             <div class="container">
                 <br><br>
                 <div class="row">
-                    
                     <div class="col-md-8 d-flex flex-column justify-content-between">
                         <div>
                             <h1 class="display-3 text-left" style="color: white;" >Campus Access</h1>
@@ -111,15 +105,8 @@
                         </div> 
                         
                         <div class="blockquote text-left">
-                            <!-- <br> -->
-                         
-                            <p class="mb-1  " style="color: white; padding-bottom: 8px; font-weight: lighter;">Sponsored by</b>
-                                
-                            </p>
-                            
-                            <!-- <br> -->
-                                <img class="appStore applink" src="UMassAmherst_logo.png" alt="University of Massachusetts Logo"
-                                    style="max-width: 300px; padding-top:0px;">
+                            <p class="mb-1  " style="color: white; padding-bottom: 8px; font-weight: lighter;">Sponsored by</b></p> 
+                            <img class="appStore applink" src="./images/UMassAmherst_logo.png" alt="University of Massachusetts Logo" style="max-width: 300px; padding-top:0px;">
                             <br>
                             <br>
                             <br>
@@ -127,27 +114,19 @@
                             <br>
                             <br>
                         </div>
-
-                        <!-- <div style="justify-content: center; flex-direction: row;">
-                            <img src="UMassAmherst_logo.png" width=200 alt="Iphone with the Campus Access Map display" style="margin: 15;">
-                        </div> -->
                     </div>
                     <div class=" mobile col-md-4 wow">
-                        <img src="8.png" width="500px;" alt="Iphone with the Campus Access Map display">
+                        <img src="./images/8.png" width="500px;" alt="Iphone with the Campus Access Map display">
                         <br>    
                         <br>
                         <br>    
                         <br>
                     </div>
-
                 </div>
             </div>
         </div>
-
-
         <!-- FEATURES -->
         <div class="container" id="features" style="background-color: rgba(255,255,255,0.6);">
-          
             <br>
             <br>
             <br>
@@ -169,42 +148,34 @@
             <br>
             <div class="row featurette mt-4">
                 <div class="col-md-6 order-md-2 align-self-center">
-                    <h2 class="featurette-heading">Barrier Reporting. <span class="text-muted">Route around the obstacles.</span>
-                    </h2>
+                    <h2 class="featurette-heading">Barrier Reporting. <span class="text-muted">Route around the obstacles.</span></h2>
                 </div>
                 <div class="col-md-6 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto rounded"  id="feat" data-src="holder.js/500x500/auto"
-                        alt="Generic placeholder image"
-                        src="images/design.003.jpeg">
+                    <img class="featurette-image img-fluid mx-auto rounded"  id="feat" data-src="holder.js/500x500/auto"alt="Generic placeholder image"src="images/design.003.jpeg">
                 </div>
             </div>
             <br>
             <br>
             <br>
             <br>
-
             <div class="row featurette">
                 <div class="col-md-6 align-self-center">
-                    <h2 class="featurette-heading">Live Rerouting. <span class="text-muted">Reach your destination on
-                        time.</span></h2>
+                    <h2 class="featurette-heading">Live Rerouting. <span class="text-muted">Reach your destination on time.</span></h2>
                 </div>
                 <div class="col-md-6">
-                    <img class="featurette-image img-fluid mx-auto rounded"  id="feat" data-src="holder.js/500x500/auto"
-                        alt="Generic placeholder image"
-                        src="images/design.002.jpeg">
+                    <img class="featurette-image img-fluid mx-auto rounded"  id="feat" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="images/design.002.jpeg">
                 </div>
             </div>
             <br>
             <br>
             <br>
-       
         </div>
     </div>
 
     <footer class="container mt-5">
         <hr>
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2021 Away team · <a href="./privacypolicy.html">Privacy</a> · <a href="./terms.html">Terms</a></p>
+        <p>© 2021 Away team · <a href="./pages/privacypolicy.html">Privacy</a> · <a href="./pages/terms.html">Terms</a></p>
     </footer>
 
 
