@@ -25,159 +25,257 @@
     <!--Wow JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-    <!-- Wow JS Activation -->
     <script>
-        new WOW().init();
+        $('#sponsor-carousel').carousel({
+            interval: 2000,
+            cycle: true
+        });
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        }
     </script>
 
 </head>
 
 <body class="text-center">
+  <div class="fixed-top">
+    <div class="p-3 px-md-4 box-shadow" style="background-color: #00B4D8; display: flex;flex-direction: row;align-items: center;justify-content: space-between;" >
+        <!-- <div class="container"> -->
+        <img src="../images/test.png" width=80px style="border-radius: 45px;"/>
+        <nav class="my-2 my-md-0 mr-md-3 lead" >
+            <a class="p-2 text-dark"  href="../index.html"><span style="color: white;">Home</span></a></span>
+            <a class="p-2 text-dark" href="../index.html"><span style="color: white;">Features</a></span>
+            <!--<a class="p-2 text-dark" href="./index.html"><span style="color: white;">App</a></span>-->
+            <a class="p-2 text-dark" href="#"><span style="color: white;">Team</a></span>
+            <a class="p-2 text-dark" href="./contactUs.html"><span style="color: white;">Contact</a></span>
+        </nav>
+        <button style="width: 60; height: 60; border: none; background-color: #00B4D8; font-size: 30;" onclick="openNav()" class="collapse">&#9776</button>
+    </div>
+</div>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a  href="../index.html"><span style="color: white;">Home</span></a></span>
+  <a  href="../index.html"><span style="color: white;">Features</a></span>
+  <!--<a  href="./index.html"><span style="color: white;">App</a></span>-->
+  <a  href="#"><span style="color: white;">Team</a></span>
+  <a  href="./contactUs.html"><span style="color: white;">Contact</a></span>
+</div>
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <h3 class="masthead-brand"><a href="./index.html">AWAY</a></h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link" href="../index.html">Home</a>
-                    <a class="nav-link active" href="../pages/team.html">Team</a>
-                    <a class="nav-link" href="../pages/download.html">Download</a>
-                    <a class="nav-link" href="../pages/contact.html">Contact</a>
-                </nav>
+    <br><br>
+    <div class="container">
+
+       
+
+
+      <br> <br> <br>
+        <h1 class="display-3 m-5">Campus Access Team</h1>
+        <br>
+        <br>
+
+        <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+      <div class="avatar mx-auto">
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQGYnm7-qGxcew/profile-displayphoto-shrink_100_100/0/1516968625774?e=1619654400&v=beta&t=qd38hEXGXeFgZBVinvsr6-OAC6YZOsLYHQhWVDwQNO8" class="rounded-circle z-depth-1"
+          alt="Sample avatar" height=230>
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3">Kirs Imsong</h5>
+      <p class="text-uppercase blue-text"><strong>Founder </strong></p>
+    
+    
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+      <div class="avatar mx-auto">
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEUnrhYNpnbPA/profile-displayphoto-shrink_100_100/0/1613235949007?e=1619654400&v=beta&t=d1fRW6fd9xw0afQaJupIV4qOABKSBcRlGQ9wCegL0vg" class="rounded-circle z-depth-1"
+          alt="Sample avatar" height=230>
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3">Jack Kenney</h5>
+      <p class="text-uppercase blue-text"><strong>Founder</strong></p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+      <div class="avatar mx-auto">
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQHxI2hpgtB4SA/profile-displayphoto-shrink_800_800/0/1517052327608?e=1619654400&v=beta&t=ECv5fVmk1Klsv7NSYposR1fNUSDC1oFOcXa6du6AoWI" class="rounded-circle z-depth-1"
+          alt="Sample avatar" height=230>
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3">Jason Zhou</h5>
+      <p class="text-uppercase blue-text"><strong>Founder</strong></p>
+
+     
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-3 col-md-6">
+      <div class="avatar mx-auto">
+        <img src="https://hancroft.co.nz/wp-content/uploads/2019/05/profile-placeholder.png" class="rounded-circle z-depth-1"
+          alt="Sample avatar" height=230>
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3">William Borkofsky</h5>
+      <p class="text-uppercase blue-text"><strong>Founder</strong></p>
+   
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+    <br>
+    <div class="row">
+
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+         <div class="avatar mx-auto">
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEuSb0BdGqCjw/profile-displayphoto-shrink_800_800/0/1615220581860?e=1620864000&v=beta&t=kx_CSmiWMGDWp1QM5LabIC6jnITPBAXuLuxXm7xTqFw" class="rounded-circle z-depth-1"
+            alt="Sample avatar" height=230>
+        </div>
+          <h5 class="font-weight-bold mt-4 mb-3">Aryan Singh</h5>
+          <p class="text-uppercase blue-text"><strong>Software Engineer</strong></p>
+    
+      
+        </div>
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+        <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+          <div class="avatar mx-auto">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFKrzbCdSSHuA/profile-displayphoto-shrink_800_800/0/1573944705472?e=1619654400&v=beta&t=gaajCFFKp3n8T6Q-pa7oxBERlWRfHar8Ui_KgBVDHeE" class="rounded-circle z-depth-1"
+              alt="Sample avatar" height=230>
+          </div>
+          <h5 class="font-weight-bold mt-4 mb-3">Dhruv Keyal</h5>
+          <p class="text-uppercase blue-text"><strong>Technical Product Manager</strong></p>
+    
+         
+        </div>
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+        <div class="col-lg-3 col-md-6">
+         <div class="avatar mx-auto">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHdGiJ2cQqfZw/profile-displayphoto-shrink_800_800/0/1581005449333?e=1619654400&v=beta&t=eCwBXszBf01re_LbU6MaUvJLf2xIZv4bFx-Qoa9s2Eg" class="rounded-circle z-depth-1"
+              alt="Sample avatar" height=230>
+          </div>
+          <h5 class="font-weight-bold mt-4 mb-3">Matthew Moran</h5>
+          <p class="text-uppercase blue-text"><strong>Software Engineer</strong></p>
+       
+        </div>
+
+           <!-- Grid column -->
+           <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="https://hancroft.co.nz/wp-content/uploads/2019/05/profile-placeholder.png" class="rounded-circle z-depth-1"
+                alt="Sample avatar" height=230>
             </div>
-        </header>
+            <h5 class="font-weight-bold mt-4 mb-3">Alexandru Munteanu</h5>
+            <p class="text-uppercase blue-text"><strong>Software Engineer</strong></p>
+          
+          
+          </div>
+        <!-- Grid column -->
+    
+      </div>
+      <!-- Grid row -->
 
-        <main role="main" class="inner cover">
-            <!--About-->
-            <div class="container about" id="about">
-                <div class="row text-center justify-content-center">
-                    <div class="">
-                        <h1 class="display-3 mt-5 mb-3">OUR TEAM</h1>
-                    </div>
-                </div>
+      <br>
+      <div class="row">
+
+     
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+          <div class="avatar mx-auto">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQF1Jbx5XR00kA/profile-displayphoto-shrink_800_800/0/1573618128395?e=1619654400&v=beta&t=zCU5lIIH3n5xosOpBSxbr8cV9HcUsZl8b5GcIid-GDU" class="rounded-circle z-depth-1"
+              alt="Sample avatar" height=230>
+          </div>
+          <h5 class="font-weight-bold mt-4 mb-3">Shiv Ansal</h5>
+          <p class="text-uppercase blue-text"><strong>Technical Product Manager</strong></p>
+    
+      
+        </div>
 
 
-                <div class="container team">
-                    <div class="row">
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Kirs Imsong</h2>
-                            <p>Co-Founder, Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Jason Zhuo</h2>
-                            <p>Co-Founder, Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Jack Kenney</h2>
-                            <p>Co-Founder, Software Developer
-                            </p>
-                        </div>
+    
+      </div>
 
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>William Boforsky</h2>
-                            <p>Co-Founder, Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Aryan Singh</h2>
-                            <p>Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Dhruv Keyal</h2>
-                            <p>Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Shiv Ansal</h2>
-                            <p>Software Developer
-                            </p>
-                        </div>
+      <br><br>
+      <h2 class="font-weight-bold mt-4 mb-3">Advisors</h2>
+      <br><br><br>
 
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Matthew Moran</h2>
-                            <p>Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Alexandru M</h2>
-                            <p>Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Joshua Pearson</h2>
-                            <p>Software Developer
-                            </p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Ann Marie</h2>
-                            <p>Donec sed odio dui. Etiam porta sem
-                            </p>
-                        </div>
+      <div class="row" style="display: flex; flex-direction: row; justify-content: space-around;">
 
-                        <div class="col-md-3 text-center">
-                            <img class="rounded-circle mb-3"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140">
-                            <h2>Niels</h2>
-                            <p>Donec sed odio dui. Etiam porta sem
-                            </p>
-                        </div>
-                        
-                    </div>
-                </div>
-            
-                
-            </div>
-        </main>
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+          <div class="avatar mx-auto">
+            <img src="https://hancroft.co.nz/wp-content/uploads/2019/05/profile-placeholder.png" class="rounded-circle z-depth-1"
+              alt="Sample avatar" height=230>
+          </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Neils</h5>
+            <p class="text-uppercase blue-text"><strong>Advisor</strong></p>
+          
+          
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+              <div class="avatar mx-auto">
+            <img src="https://hancroft.co.nz/wp-content/uploads/2019/05/profile-placeholder.png" class="rounded-circle z-depth-1"
+              alt="Sample avatar" height=230>
+          </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Ann Marie</h5>
+            <p class="text-uppercase blue-text"><strong>Advisor</strong></p>
+      
+        
+          </div>
+        <!-- Grid column -->
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+          <div class="avatar mx-auto">
+          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGptmzWVl7onQ/profile-displayphoto-shrink_100_100/0/1516480945998?e=1619654400&v=beta&t=yo2h5P-HWJ0NzWHUYGoHe6MCFesaSyAhJ-mU83Y_1CE" class="rounded-circle z-depth-1"
+            alt="Sample avatar" height=230>
+        </div>
+          <h5 class="font-weight-bold mt-4 mb-3">Josh</h5>
+          <p class="text-uppercase blue-text"><strong>Advisor</strong></p>
+    
+      
+        </div>
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+    
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    
 
         
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>Made with <span style="color: #e25555;">&#9829;</span> by <a href="">The Away Team</a></p>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#" style="color: white;">Privacy</a></li>
-                    <li class="list-inline-item"><a href="#" style="color: white;">Terms</a></li>
-                    <li class="list-inline-item"><a href="#" style="color: white;">Support</a></li>
-                  </ul>
-            </div>
-        </footer>
-    </div>
+          <!-- Grid row-->
+ 
+
+    <footer class="container mt-5">
+        <hr>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2021 Away team · <a href="./privacypolicy.html">Privacy</a> · <a href="./terms.html">Terms</a></p>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
@@ -204,7 +302,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-
 
 </body>
 
